@@ -90,4 +90,4 @@ for(let i = 0;i<8;i++){
 	y520[i] = asc[symbol5][i]+'     '+asc[symbol2][i]+'     '+asc[symbol0][i];
 	lm[i] = asc[symbolL][i]+'     '+asc[symbolM][i];
 }
-process.stdout.write('\n\n\n'+xtx.join('\n')+'\n\n\n'+y520.join('\n')+'\n\n\n'+lm.join('\n'));
+process.stdout.write('\n\n\n'+chalk.magenta(xtx.join('\n'))+'\n\n\n'+chalk.red(y520.join('\n'))+'\n\n\n'+chalk.cyan(lm.join('\n')));
